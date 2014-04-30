@@ -1,3 +1,20 @@
+//////////////////////////////
+//    Dynamic-AI-Creator    //
+//    Version 3.1b - 2014   //
+//--------------------------//
+//    DAC_Config_Behaviour  //
+//--------------------------//
+//    Script by Silola      //
+//    silola@freenet.de     //
+//////////////////////////////
+
+private [
+			"_array","_setSkill","_setCombat","_setBehav","_setSpeed","_setForm","_setPatrol","_setSearch",
+			"_setFleeing","_setHeliVal","_setPause","_setBldgBeh","_setSupport","_setJoin","_setEmpVeh","_setSupTime","_setHidTime"
+		];
+
+switch (_this select 0) do
+{
 //-------------------------------------------------------------------------------------------------------------------------
 
 	case 0:
@@ -71,3 +88,19 @@
 	};
 
 //-------------------------------------------------------------------------------------------------------------------------
+	Default {
+				if(DAC_Basic_Value != 5) then
+				{
+					DAC_Basic_Value = 5;publicvariable "DAC_Basic_Value";
+					hintc "Error: DAC_Config_Behaviour > No valid config number";
+				};
+				if(true) exitwith {};
+			};
+};
+
+_array =	[
+				_setSkill,_setCombat,_setBehav,_setSpeed,_setForm,_setFleeing,
+				_setHeliVal,_setPause,_setBldgBeh,_setPatrol,_setSearch,
+				_setSupport,_setJoin,_setEmpVeh,_setSupTime,_setHidTime
+			];
+_array

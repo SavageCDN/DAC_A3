@@ -1,3 +1,18 @@
+//////////////////////////////
+//    Dynamic-AI-Creator    //
+//    Version 3.1b - 2014   //
+//--------------------------//
+//    DAC_Config_Camps      //
+//--------------------------//
+//    Script by Silola      //
+//    silola@freenet.de     //
+//////////////////////////////
+
+private ["_TypNumber","_TempArray","_Unit_Pool_S","_Unit_Pool_V","_Unit_Pool_T","_Unit_Pool_A"];
+_TypNumber = _this select 0;_TempArray = [];
+
+switch (_TypNumber) do
+{
 //-------------------------------------------------------------------------------------------------
 // A3 OPFOR CSAT	OPF_F
   case 0:
@@ -630,6 +645,25 @@
 	_Unit_Pool_T = ["O_APC_Tracked_02_cannon_F","O_APC_Wheeled_02_rcws_F"];
 	_Unit_Pool_A = ["O_Heli_Light_02_F"];
   };
-  
-  
- //-------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------
+
+  Default
+  {
+    if(DAC_Basic_Value != 5) then
+    {
+      DAC_Basic_Value = 5;publicvariable "DAC_Basic_Value",
+      hintc "Error: DAC_Config_Units > No valid config number";
+    };
+    if(true) exitwith {};
+  };
+};
+
+if(count _this == 2) then
+{
+  _TempArray = _TempArray + [_Unit_Pool_S,_Unit_Pool_V,_Unit_Pool_T,_Unit_Pool_A];
+}
+else
+{
+  _TempArray = _Unit_Pool_V + _Unit_Pool_T + _Unit_Pool_A;
+};
+_TempArray
