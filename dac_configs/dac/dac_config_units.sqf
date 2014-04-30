@@ -620,5 +620,16 @@
     _Unit_Pool_T = [];
     _Unit_Pool_A = ["CAF_CH146_SF"];
   };
- //-------------------------------------------------------------------------------------------------
+ 
+//-------------------------------------------------------------------------------------------------
+// OPFOR CSAT		'LIGHT' URBAN ASSAULT FORCE				VANILLA
+  case 16:
+  {
+   	_Unit_Pool_S = [ "O_crew_F", "O_Helipilot_F", "O_soldierU_SL_F", "O_soldierU_TL_F", "O_soldierU_TL_F", "O_soldierU_medic_F", "O_soldierU_medic_F", "O_soldierU_AR_F", "O_soldierU_AR_F", "O_soldierU_F", "O_soldierU_F", "O_soldierU_F", "O_soldierU_F", "O_soldierU_LAT_F", "O_soldierU_LAT_F", "O_soldierU_AT_F", "O_soldierU_AAR_F" ];
+	_Unit_Pool_V = ["O_MRAP_02_F","O_MRAP_02_hmg_F"];
+	_Unit_Pool_T = ["O_APC_Tracked_02_cannon_F","O_APC_Wheeled_02_rcws_F"];
+	_Unit_Pool_A = ["O_Heli_Light_02_F"];
+  };
+  
+  
  //-------------------------------------------------------------------------------------------------
