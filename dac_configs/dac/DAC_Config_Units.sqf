@@ -646,6 +646,175 @@ switch (_TypNumber) do
 	_Unit_Pool_A = ["O_Heli_Light_02_F"];
   };
 //-------------------------------------------------------------------------------------------------
+// Takistani Army regulars (Opfor) (@kae_SZ)
+  case 17:
+  {
+    _Unit_Pool_S = [
+		"kae_TK_crewman","kae_TK_pilot","kae_TK_FAL_SL",
+		"kae_TK_rifleman","kae_TK_m16_rifleman","kae_TK_FAL_rifleman","kae_TK_FAL_rifleman_Ishapore",
+		"kae_TK_rifle_AT","kae_TK_m16_rifle_AT","kae_TK_FAL_rifle_AT","kae_TK_lmg","kae_TK_mg",
+		"kae_TK_AT","kae_TK_m16_AT","kae_TK_FAL_AT","kae_TK_medic","kae_TK_FAL_medic_Ishapore",
+		"kae_TK_soldier_light","kae_TK_m16_soldier_light","kae_TK_FAL_soldier_light"
+	];
+    _Unit_Pool_V = ["Kae_UAZ_469_TK","Kae_UAZ_469_Open_TK"];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = ["Kae_Mi_24p_TK_falanga","Kae_Mi_24p_TK","Kae_Mi_24v_TK","Kae_Mi_24v_TK_falanga"];
+  }; //Left out Anti-Air Classes (Can ruin missions with Helicopter insertions if they are scattered over the map uncontrolled: "kae_TK_AA","kae_TK_m16_AA","kae_TK_FAL_AA",
+//-------------------------------------------------------------------------------------------------
+// Takistani Army Recruits (Opfor) (@kae_SZ)
+  case 18:
+  {
+    _Unit_Pool_S = [
+		"kae_TK_crewman","kae_TK_pilot","kae_TK_soldier_light",
+		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
+		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
+		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
+		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
+		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
+		"kae_TK_FAL_medic_Ishapore"
+	];
+    _Unit_Pool_V = [
+		"Kae_UAZ_469_TK","Kae_UAZ_469_Open_TK"
+	];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = ["Kae_Mi_24p_TK_falanga","Kae_Mi_24p_TK","Kae_Mi_24v_TK","Kae_Mi_24v_TK_falanga"];
+  };
+//-------------------------------------------------------------------------------------------------
+// Takistani Army Special Forces (Opfor)(@kae_SZ)
+  case 19:
+  {
+    _Unit_Pool_S = [
+		"kae_TK_T_crewman","kae_TK_T_pilot","kae_TK_T_SL",
+		"kae_TK_T_rifleman","kae_TK_T_rifleman_2","kae_TK_T_mg",
+		"kae_TK_T_medic","kae_TK_T_marksman","kae_TK_T_AT"
+	];
+    _Unit_Pool_V = ["Kae_UAZ_469_TK","Kae_UAZ_469_Open_TK"];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = ["Kae_Mi_24p_TK_falanga","Kae_Mi_24p_TK","Kae_Mi_24v_TK","Kae_Mi_24v_TK_falanga"];
+  };
+//-------------------------------------------------------------------------------------------------
+// South Zagorian Army Modern (Independent)(@kae_SZ)
+  case 20:
+  {
+    _Unit_Pool_S = [
+		"kae_SZ_2013_crewman","kae_SZ_2013_pilot","kae_SZ_2013_SL",
+		"kae_SZ_2013_rifleman_chest","kae_SZ_2013_rifleman_gloves","kae_SZ_2013_marksman",
+		"kae_SZ_2013_marksman_545","kae_SZ_2013_lmg","kae_SZ_2013_mg","kae_SZ_2013_rifle_l",
+		"kae_SZ_2013_rifle_AT","kae_SZ_2013_AT","kae_SZ_2013_rifleman","kae_SZ_2013_medic",
+		"kae_SZ_2013_soldier_light"
+	];
+    _Unit_Pool_V = ["Kae_UAZ_469_SZ","Kae_UAZ_469_Open_SZ"];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [
+		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
+		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
+	];
+  }; // Left out Troops : "kae_SZ_2013_general" "kae_SZ_2013_AA", "kae_SZ_2013_officer",
+//-------------------------------------------------------------------------------------------------
+// South Zagorian Army Modern (Plains) (Independent)(@kae_SZ)
+  case 21:
+  {
+    _Unit_Pool_S = [
+		"kae_SZ_2013_crewman_P","kae_SZ_2013_pilot_P","kae_SZ_2013_SL_P",
+		"kae_SZ_2013_rifleman_chest_P","kae_SZ_2013_rifleman_gloves_P","kae_SZ_2013_marksman_P",
+		"kae_SZ_2013_marksman_545_P","kae_SZ_2013_lmg_P","kae_SZ_2013_mg_P",
+		"kae_SZ_2013_rifle_l_P","kae_SZ_2013_rifle_AT_P","kae_SZ_2013_AT_P",
+		"kae_SZ_2013_rifleman_P","kae_SZ_2013_medic_P","kae_SZ_2013_soldier_light_P"
+	];
+    _Unit_Pool_V = ["Kae_UAZ_469_SZ","Kae_UAZ_469_Open_SZ"];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [
+		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
+		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
+	];
+  }; // Left out Troops : "kae_SZ_2013_general_P" "kae_SZ_2013_AA_P", "kae_SZ_2013_officer_P",
+//-------------------------------------------------------------------------------------------------
+// South Zagorian Army Modern (Desert) (Independent)(@kae_SZ)
+  case 22:
+  {
+    _Unit_Pool_S = [
+		"kae_SZ_2013_crewman_D","kae_SZ_2013_Pilot_D","kae_SZ_2013_SL_D",
+		"kae_SZ_2013_rifleman_chest_D",
+		"kae_SZ_2013_rifleman_gloves_D",
+		"kae_SZ_2013_marksman_D",
+		"kae_SZ_2013_marksman_545_D",
+		"kae_SZ_2013_lmg_D",
+		"kae_SZ_2013_mg_D",
+		"kae_SZ_2013_rifle_l_D",
+		"kae_SZ_2013_rifle_AT_D",
+		"kae_SZ_2013_AT_D",
+		"kae_SZ_2013_rifleman_D",
+		"kae_SZ_2013_medic_D",
+		"kae_SZ_2013_soldier_light_D"
+	];
+    _Unit_Pool_V = ["Kae_UAZ_469_SZ_D","Kae_UAZ_469_Open_SZ_D"];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [
+		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
+		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
+	];
+  }; // Left out Troops : "kae_SZ_2013_general_D" "kae_SZ_2013_AA_D", "kae_SZ_2013_officer_D",
+//-------------------------------------------------------------------------------------------------
+// South Zagorian Army Modern (UN) (Independent)(@kae_SZ)
+  case 23:
+  {
+    _Unit_Pool_S = [
+		"kae_SZ_2013_crewman_UN","kae_SZ_2013_Pilot_UN","kae_SZ_2013_SL_UN",
+		"kae_SZ_2013_rifleman_chest_UN","kae_SZ_2013_rifleman_gloves_UN",
+		"kae_SZ_2013_marksman_UN","kae_SZ_2013_marksman_545_UN",
+		"kae_SZ_2013_lmg_UN","kae_SZ_2013_mg_UN",
+		"kae_SZ_2013_rifle_l_UN","kae_SZ_2013_rifle_AT_UN",
+		"kae_SZ_2013_AT_UN","kae_SZ_2013_rifleman_UN",
+		"kae_SZ_2013_medic_UN","kae_SZ_2013_soldier_light_UN"
+	];
+    _Unit_Pool_V = ["Kae_UAZ_469_UN_SZ","Kae_UAZ_469_Open_UN_SZ"];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [
+		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
+		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
+	];
+  }; // Left out Troops : "kae_SZ_2013_general_UN" "kae_SZ_2013_AA_UN", "kae_SZ_2013_officer_UN",
+//-------------------------------------------------------------------------------------------------
+// South Zagorian Army Modern (UN Desert) (Independent)(@kae_SZ)
+  case 24:
+  {
+    _Unit_Pool_S = [
+		"kae_SZ_2013_crewman_UN_D","kae_SZ_2013_Pilot_UN_D","kae_SZ_2013_SL_UN_D",
+		"kae_SZ_2013_rifleman_chest_UN_D","kae_SZ_2013_rifleman_gloves_UN_D",
+		"kae_SZ_2013_marksman_UN_D","kae_SZ_2013_marksman_545_UN_D",
+		"kae_SZ_2013_lmg_UN_D","kae_SZ_2013_mg_UN_D",
+		"kae_SZ_2013_rifle_l_UN_D","kae_SZ_2013_rifle_AT_UN_D",
+		"kae_SZ_2013_AT_UN_D","kae_SZ_2013_rifleman_UN_D",
+		"kae_SZ_2013_medic_UN_D","kae_SZ_2013_soldier_light_UN_D"
+	];
+    _Unit_Pool_V = ["Kae_UAZ_469_UN_SZ_D","Kae_UAZ_469_Open_UN_SZ_D"];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [
+		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
+		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
+	];
+  }; // Left out Troops : "kae_SZ_2013_general_UN_D" "kae_SZ_2013_AA_UN_D", "kae_SZ_2013_officer_UN_D",
+//-------------------------------------------------------------------------------------------------
+// South Zagorian Army Modern (UN Plains) (Independent)(@kae_SZ)
+  case 25:
+  {
+    _Unit_Pool_S = [
+		"kae_SZ_2013_crewman_UN_P","kae_SZ_2013_Pilot_UN_P","kae_SZ_2013_SL_UN_P",
+		"kae_SZ_2013_rifleman_chest_UN_P","kae_SZ_2013_rifleman_gloves_UN_P",
+		"kae_SZ_2013_marksman_UN_P","kae_SZ_2013_marksman_545_UN_P",
+		"kae_SZ_2013_lmg_UN_P","kae_SZ_2013_mg_UN_P",
+		"kae_SZ_2013_rifle_l_UN_P","kae_SZ_2013_rifle_AT_UN_P",
+		"kae_SZ_2013_AT_UN_P","kae_SZ_2013_rifleman_UN_P",
+		"kae_SZ_2013_medic_UN_P","kae_SZ_2013_soldier_light_UN_P"
+	];
+    _Unit_Pool_V = ["Kae_UAZ_469_UN_SZ","Kae_UAZ_469_Open_UN_SZ"];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [
+		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
+		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
+	];
+  }; // Left out Troops : "kae_SZ_2013_general_UN_P" "kae_SZ_2013_AA_UN_P", "kae_SZ_2013_officer_UN_P",
+//-------------------------------------------------------------------------------------------------
 
   Default
   {
