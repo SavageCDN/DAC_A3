@@ -12,8 +12,8 @@ Modified files:<br>
 -DAC_Config_Units.sqf<br>
 <br><br>
 
-Included Mod Units:
-<br>
+Included Mod Units:<br>
+
 @CAF - Canadian Armed Forces by O'Hally and CAF Team<br>
 @CAF_AG - Aggressors Mod by O'Hally<br>
 @Kae_SZ - South Zagorian Army by Kaelies<br>
