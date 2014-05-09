@@ -14,6 +14,6 @@ Modified files:
 
 Included Mod Units:
 
-@CAF - Canadian Armed Forces by O'Hally and CAF Team
+@CAF - Canadian Armed Forces by O'Hally and CAF Team<br>
 @CAF_AG - Aggressors Mod by O'Hally
 @Kae_SZ - South Zagorian Army by Kaelies
