@@ -17,3 +17,5 @@ Included Mod Units:<br>
 @CAF - Canadian Armed Forces by O'Hally and CAF Team<br>
 @CAF_AG - Aggressors Mod by O'Hally<br>
 @Kae_SZ - South Zagorian Army by Kaelies<br>
+@sud_russians - Russian units by Sudden<br>
+@POMI_PMC - Private Military Contractor units by pomigit<br>
