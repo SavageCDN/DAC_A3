@@ -4,6 +4,7 @@ Example:
 fun=["z1",[1,1,1,0],[1,1,3,2,"infZ1"],[],[],[],[0,0,2,0]] spawn DAC_Zone
 After the initialization of DAC, all infantry groups from zone "z1" are stored in the array "infZ1".
 
+You can do this for vehicle, armour and camp sections [1,2,50,0,100,10,"camp_array"]
 
 // TO BE COMPLETED
 // Creating armour and infantry patrols
