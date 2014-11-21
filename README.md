@@ -19,3 +19,4 @@ Included Mod Units:<br>
 @Kae_SZ - South Zagorian Army by Kaelies<br>
 @sud_russians - Russian units by Sudden<br>
 @POMI_PMC - Private Military Contractor units by pomigit<br>
+@RHS - started configs for RHS - Russian MSV and USArmy Woodland<br>
