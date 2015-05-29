@@ -646,170 +646,53 @@ switch (_TypNumber) do
 	_Unit_Pool_A = ["O_Heli_Light_02_F"];
   };
 //-------------------------------------------------------------------------------------------------
-// OPFOR 	Takistani Army regulars 					@kae_SZ
+// OPFOR 	Takistani Army regulars 					@TKA_A3
   case 17:
-  {
-    _Unit_Pool_S = [
-		"kae_TK_crewman","kae_TK_pilot","kae_TK_FAL_SL",
-		"kae_TK_rifleman","kae_TK_m16_rifleman","kae_TK_FAL_rifleman","kae_TK_FAL_rifleman_Ishapore",
-		"kae_TK_rifle_AT","kae_TK_m16_rifle_AT","kae_TK_FAL_rifle_AT","kae_TK_lmg","kae_TK_mg",
-		"kae_TK_AT","kae_TK_m16_AT","kae_TK_FAL_AT","kae_TK_medic","kae_TK_FAL_medic_Ishapore",
-		"kae_TK_soldier_light","kae_TK_m16_soldier_light","kae_TK_FAL_soldier_light"
-	];
-    _Unit_Pool_V = ["Kae_UAZ_469_TK","Kae_UAZ_469_Open_TK"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = ["Kae_Mi_24p_TK_falanga","Kae_Mi_24p_TK","Kae_Mi_24v_TK","Kae_Mi_24v_TK_falanga"];
-  }; //Left out Anti-Air Classes (Can ruin missions with Helicopter insertions if they are scattered over the map uncontrolled: "kae_TK_AA","kae_TK_m16_AA","kae_TK_FAL_AA",
+   {
+    _Unit_Pool_S = ["B_TKA_A3_Soldier_Crew","B_TKA_A3_Soldier_Pilot","B_TKA_A3_Soldier_SL","B_TKA_A3_Soldier_MG","B_TKA_A3_Soldier_AMG","B_TKA_A3_Soldier_AR","B_TKA_A3_Soldier_LAT","B_TKA_A3_Soldier_AT","B_TKA_A3_Soldier_AAT"];
+    _Unit_Pool_V = ["TKA_A3_M113","TKA_A3_UAZ_SPG9","TKA_A3_Ural_ZU23","TKA_A3_UAZ_MG","TKA_A3_BTR60"]; // M113 and BTR60 are here, as they are 1 rocket dead, also added ural with AA gun.
+    _Unit_Pool_T = ["TKA_A3_BMP2","TKA_A3_T34","TKA_A3_T72"]; // No T-55, since with using RHS gear and vehicles T-55 is too OP (2 javelin rockets = no damage done)
+    _Unit_Pool_A = ["TKA_A3_Mi17","TKA_A3_Mi17_rockets"]; // No Mi-24 since it might be too op in missions
+  };
 //-------------------------------------------------------------------------------------------------
-// OPFOR		Takistani Army Recruits 					@kae_SZ
+// Blufor		CDF					@CDF_A3 mixed with LOP CDF units
   case 18:
-  {
-    _Unit_Pool_S = [
-		"kae_TK_crewman","kae_TK_pilot","kae_TK_soldier_light",
-		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
-		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
-		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
-		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
-		"kae_TK_FAL_rifleman_Ishapore","kae_TK_FAL_rifleman_Ishapore",
-		"kae_TK_FAL_medic_Ishapore"
-	];
-    _Unit_Pool_V = [
-		"Kae_UAZ_469_TK","Kae_UAZ_469_Open_TK"
-	];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = ["Kae_Mi_24p_TK_falanga","Kae_Mi_24p_TK","Kae_Mi_24v_TK","Kae_Mi_24v_TK_falanga"];
+   {
+    _Unit_Pool_S = ["B_CDF_A3_Soldier_Crew","B_CDF_A3_Soldier_Pilot","B_CDF_A3_Soldier_GL","B_CDF_A3_Soldier_MG","B_CDF_A3_Soldier_AR","B_CDF_A3_Soldier_Medic","B_CDF_A3_Soldier_RPG","LOP_CDF_Infantry_Marksman"];
+    _Unit_Pool_V = ["LOP_CDF_BTR60","CDF_A3_UAZ_MG","CDF_A3_UAZ_SPG9","CDF_A3_Ural_ZU23"];
+    _Unit_Pool_T = ["CDF_A3_BMP2","LOP_CDF_BMP1","CDF_A3_T72","LOP_CDF_T72BA","LOP_CDF_T72BB"];
+    _Unit_Pool_A = ["CDF_A3_Mi17_rockets","CDF_A3_Mi17"];
   };
 //-------------------------------------------------------------------------------------------------
-// OPFOR		Takistani Army Special Forces 				@kae_SZ
+Blufor			CDF					@CDF_A3 clean
   case 19:
-  {
-    _Unit_Pool_S = [
-		"kae_TK_T_crewman","kae_TK_T_pilot","kae_TK_T_SL",
-		"kae_TK_T_rifleman","kae_TK_T_rifleman_2","kae_TK_T_mg",
-		"kae_TK_T_medic","kae_TK_T_marksman","kae_TK_T_AT"
-	];
-    _Unit_Pool_V = ["Kae_UAZ_469_TK","Kae_UAZ_469_Open_TK"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = ["Kae_Mi_24p_TK_falanga","Kae_Mi_24p_TK","Kae_Mi_24v_TK","Kae_Mi_24v_TK_falanga"];
+   {
+    _Unit_Pool_S = ["B_CDF_A3_Soldier_Crew","B_CDF_A3_Soldier_Pilot","B_CDF_A3_Soldier_GL","B_CDF_A3_Soldier_MG","B_CDF_A3_Soldier_AR","B_CDF_A3_Soldier_Medic","B_CDF_A3_Soldier_RPG"];
+    _Unit_Pool_V = ["CDF_A3_UAZ_MG","CDF_A3_UAZ_SPG9","CDF_A3_Ural_ZU23"];
+    _Unit_Pool_T = ["CDF_A3_BMP2","CDF_A3_T72"];
+    _Unit_Pool_A = ["CDF_A3_Mi17_rockets","CDF_A3_Mi17"];
   };
 //-------------------------------------------------------------------------------------------------
-// INDEPENDENT	South Zagorian Army Modern 			@kae_SZ
+// OPFOR	ChDKZ 			@Leights OPFOR
   case 20:
   {
-    _Unit_Pool_S = [
-		"kae_SZ_2013_crewman","kae_SZ_2013_pilot","kae_SZ_2013_SL",
-		"kae_SZ_2013_rifleman_chest","kae_SZ_2013_rifleman_gloves","kae_SZ_2013_marksman",
-		"kae_SZ_2013_marksman_545","kae_SZ_2013_lmg","kae_SZ_2013_mg","kae_SZ_2013_rifle_l",
-		"kae_SZ_2013_rifle_AT","kae_SZ_2013_AT","kae_SZ_2013_rifleman","kae_SZ_2013_medic",
-		"kae_SZ_2013_soldier_light"
-	];
-    _Unit_Pool_V = ["Kae_UAZ_469_SZ","Kae_UAZ_469_Open_SZ"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = [
-		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
-		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
-	];
-  }; // Left out Troops : "kae_SZ_2013_general" "kae_SZ_2013_AA", "kae_SZ_2013_officer",
+    _Unit_Pool_S = ["LOP_ChDKZ_Infantry_Crewman","LOP_ChDKZ_Infantry_Pilot","LOP_ChDKZ_Infantry_TL","LOP_ChDKZ_Infantry_MG","LOP_ChDKZ_Infantry_SL","LOP_ChDKZ_Infantry_Rifleman","LOP_ChDKZ_Infantry_Marksman","LOP_ChDKZ_Infantry_GL","LOP_ChDKZ_Infantry_Engineer","LOP_ChDKZ_Infantry_Corpsman"];
+    _Unit_Pool_V = ["rhs_btr70_chdkz","rhs_uaz_open_chdkz","rhs_ural_open_chdkz"];
+    _Unit_Pool_T = ["rhs_bmd2_chdkz","LOP_ChDKZ_T72BA"];
+    _Unit_Pool_A = ["LOP_ChDKZ_Mi8MTV3_FAB","LOP_ChDKZ_Mi8MTV3_UPK23"];
+  };  // I have used vehicles done by RHS, but they are INDEPENDENT and units are OPFOR
 //-------------------------------------------------------------------------------------------------
-// INDEPENDENT	South Zagorian Army Modern (Plains)		@kae_SZ
+// Opfor	Talibian		@Leights OPFOR
   case 21:
-  {
-    _Unit_Pool_S = [
-		"kae_SZ_2013_crewman_P","kae_SZ_2013_pilot_P","kae_SZ_2013_SL_P",
-		"kae_SZ_2013_rifleman_chest_P","kae_SZ_2013_rifleman_gloves_P","kae_SZ_2013_marksman_P",
-		"kae_SZ_2013_marksman_545_P","kae_SZ_2013_lmg_P","kae_SZ_2013_mg_P",
-		"kae_SZ_2013_rifle_l_P","kae_SZ_2013_rifle_AT_P","kae_SZ_2013_AT_P",
-		"kae_SZ_2013_rifleman_P","kae_SZ_2013_medic_P","kae_SZ_2013_soldier_light_P"
-	];
-    _Unit_Pool_V = ["Kae_UAZ_469_SZ","Kae_UAZ_469_Open_SZ"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = [
-		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
-		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
-	];
-  }; // Left out Troops : "kae_SZ_2013_general_P" "kae_SZ_2013_AA_P", "kae_SZ_2013_officer_P",
-//-------------------------------------------------------------------------------------------------
-// INDEPENDENT	South Zagorian Army Modern (Desert)		@kae_SZ
-  case 22:
-  {
-    _Unit_Pool_S = [
-		"kae_SZ_2013_crewman_D","kae_SZ_2013_Pilot_D","kae_SZ_2013_SL_D",
-		"kae_SZ_2013_rifleman_chest_D","kae_SZ_2013_rifleman_gloves_D",
-		"kae_SZ_2013_marksman_D","kae_SZ_2013_marksman_545_D",
-		"kae_SZ_2013_lmg_D","kae_SZ_2013_mg_D",
-		"kae_SZ_2013_rifle_l_D","kae_SZ_2013_rifle_AT_D","kae_SZ_2013_AT_D",
-		"kae_SZ_2013_rifleman_D","kae_SZ_2013_medic_D","kae_SZ_2013_soldier_light_D"
-	];
-    _Unit_Pool_V = ["Kae_UAZ_469_SZ_D","Kae_UAZ_469_Open_SZ_D"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = [
-		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
-		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
-	];
-  }; // Left out Troops : "kae_SZ_2013_general_D" "kae_SZ_2013_AA_D", "kae_SZ_2013_officer_D",
-//-------------------------------------------------------------------------------------------------
-// INDEPENDENT	South Zagorian Army Modern (UN)		@kae_SZ
-  case 23:
-  {
-    _Unit_Pool_S = [
-		"kae_SZ_2013_crewman_UN","kae_SZ_2013_Pilot_UN","kae_SZ_2013_SL_UN",
-		"kae_SZ_2013_rifleman_chest_UN","kae_SZ_2013_rifleman_gloves_UN",
-		"kae_SZ_2013_marksman_UN","kae_SZ_2013_marksman_545_UN",
-		"kae_SZ_2013_lmg_UN","kae_SZ_2013_mg_UN",
-		"kae_SZ_2013_rifle_l_UN","kae_SZ_2013_rifle_AT_UN",
-		"kae_SZ_2013_AT_UN","kae_SZ_2013_rifleman_UN",
-		"kae_SZ_2013_medic_UN","kae_SZ_2013_soldier_light_UN"
-	];
-    _Unit_Pool_V = ["Kae_UAZ_469_UN_SZ","Kae_UAZ_469_Open_UN_SZ"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = [
-		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
-		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
-	];
-  }; // Left out Troops : "kae_SZ_2013_general_UN" "kae_SZ_2013_AA_UN", "kae_SZ_2013_officer_UN",
-//-------------------------------------------------------------------------------------------------
-// INDEPENDENT	South Zagorian Army Modern (UN Desert)	@kae_SZ
-  case 24:
-  {
-    _Unit_Pool_S = [
-		"kae_SZ_2013_crewman_UN_D","kae_SZ_2013_Pilot_UN_D","kae_SZ_2013_SL_UN_D",
-		"kae_SZ_2013_rifleman_chest_UN_D","kae_SZ_2013_rifleman_gloves_UN_D",
-		"kae_SZ_2013_marksman_UN_D","kae_SZ_2013_marksman_545_UN_D",
-		"kae_SZ_2013_lmg_UN_D","kae_SZ_2013_mg_UN_D",
-		"kae_SZ_2013_rifle_l_UN_D","kae_SZ_2013_rifle_AT_UN_D",
-		"kae_SZ_2013_AT_UN_D","kae_SZ_2013_rifleman_UN_D",
-		"kae_SZ_2013_medic_UN_D","kae_SZ_2013_soldier_light_UN_D"
-	];
-    _Unit_Pool_V = ["Kae_UAZ_469_UN_SZ_D","Kae_UAZ_469_Open_UN_SZ_D"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = [
-		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
-		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
-	];
-  }; // Left out Troops : "kae_SZ_2013_general_UN_D" "kae_SZ_2013_AA_UN_D", "kae_SZ_2013_officer_UN_D",
-//-------------------------------------------------------------------------------------------------
-// INDEPENDENT	South Zagorian Army Modern (UN Plains)	@kae_SZ
-  case 25:
-  {
-    _Unit_Pool_S = [
-		"kae_SZ_2013_crewman_UN_P","kae_SZ_2013_Pilot_UN_P","kae_SZ_2013_SL_UN_P",
-		"kae_SZ_2013_rifleman_chest_UN_P","kae_SZ_2013_rifleman_gloves_UN_P",
-		"kae_SZ_2013_marksman_UN_P","kae_SZ_2013_marksman_545_UN_P",
-		"kae_SZ_2013_lmg_UN_P","kae_SZ_2013_mg_UN_P",
-		"kae_SZ_2013_rifle_l_UN_P","kae_SZ_2013_rifle_AT_UN_P",
-		"kae_SZ_2013_AT_UN_P","kae_SZ_2013_rifleman_UN_P",
-		"kae_SZ_2013_medic_UN_P","kae_SZ_2013_soldier_light_UN_P"
-	];
-    _Unit_Pool_V = ["Kae_UAZ_469_UN_SZ","Kae_UAZ_469_Open_UN_SZ"];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = [
-		"Kae_Mi_24p_SZ","Kae_Mi_24p_SZ_aa","Kae_Mi_24v_SZ","Kae_Mi_24v_SZ_aa",
-		"Kae_Mi_24v_SZ_bmb","Kae_Mi_24vp_SZ","Kae_Mi_24vp_SZ_aa2","Kae_Mi_24vp_SZ_aa","Kae_Mi_24vp_SZ_at"
-	];
-  }; // Left out Troops : "kae_SZ_2013_general_UN_P" "kae_SZ_2013_AA_UN_P", "kae_SZ_2013_officer_UN_P",
+    {
+    _Unit_Pool_S = ["LOP_AM_Infantry_Engineer","LOP_AM_Infantry_Engineer","LOP_AM_Infantry_TL","LOP_AM_Infantry_SL","LOP_AM_Soldier","LOP_AM_Infantry_Marksman","LOP_AM_Infantry_Engineer","LOP_AM_Infantry_GL","LOP_AM_Infantry_Corpsman","LOP_AM_Infantry_AR","LOP_AM_Infantry_AT"];
+    _Unit_Pool_V = ["LOP_AM_Landrover","LOP_AM_Landrover_M2","LOP_AM_BTR60"];
+    _Unit_Pool_T = ["LOP_AM_T72BA"];
+    _Unit_Pool_A = [];
+  };
 //-------------------------------------------------------------------------------------------------
 // INDEPENDENT	Russians digital flora camo			@sud_russians
-  case 26:
+  case 22:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew","SUD_RU_Soldier_HPilot","SUD_RU_Soldier_TL",
@@ -824,7 +707,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------  
 // INDEPENDENT	Russians SURPAT Camo					@sud_russians
-  case 27:
+  case 23:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew_S","SUD_RU_Soldier_HPilot","SUD_RU_Soldier_TL_S",
@@ -839,7 +722,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------  
 // INDEPENDENT	Russians Specnaz						@sud_russians
-  case 28:
+  case 24:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew","SUD_RU_Soldier_HPilot","SUD_RU_Soldier_Specnaz_TL",
@@ -855,7 +738,7 @@ switch (_TypNumber) do
   };
 //------------------------------------------------------------------------------------------------- 
 // INDEPENDENT	Russians Specnaz SD					@sud_russians
-  case 29:
+  case 25:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew","SUD_RU_Soldier_HPilot","SUD_RU_Soldier_Specnaz_TL_SD",
@@ -869,7 +752,7 @@ switch (_TypNumber) do
   };
 //------------------------------------------------------------------------------------------------- 
 // INDEPENDENT	PG Services (PMC)						@POMI_PMC
-  case 30:
+  case 26:
   {
     _Unit_Pool_S = [
 		"PMC_Engineer","PMC_Helipilot","PMC_TL",
