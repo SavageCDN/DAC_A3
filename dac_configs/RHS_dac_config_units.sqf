@@ -21,7 +21,7 @@ switch (_TypNumber) do
   case 0:
   {
     _Unit_Pool_S = [
-		"rhs_msv_driver_armored","rhs_msv_combatcrew","rhs_msv_sergeant",
+		"rhs_msv_driver_armored", "rhs_msv_combatcrew", "rhs_msv_sergeant",
 		"rhs_msv_rifleman",
 		"rhs_msv_grenadier",
 		"rhs_msv_at",						//grenadier RPG
@@ -74,7 +74,7 @@ switch (_TypNumber) do
   case 1:
   {
     _Unit_Pool_S = [
-		"rhsusf_army_ocp_combatcrewman","rhsusf_army_ocp_helipilot","rhsusf_army_ocp_teamleader",
+		"rhsusf_army_ocp_combatcrewman", "rhsusf_army_ocp_helipilot", "rhsusf_army_ocp_teamleader",
 		"rhsusf_army_ocp_rifleman",
 		"rhsusf_army_ocp_riflemanl",		//light
 		"rhsusf_army_ocp_riflemanat",		//M136
@@ -120,9 +120,7 @@ switch (_TypNumber) do
   case 2:
   {
     _Unit_Pool_S = [
-		"rhs_vdv_combatcrew",
-		"rhs_pilot",
-		"rhs_vdv_sergeant",
+		"rhs_vdv_combatcrew", "rhs_pilot", "rhs_vdv_sergeant",
 		"rhs_vdv_RShG2",
 		"rhs_vdv_LAT",
 		"rhs_vdv_rifleman",
@@ -165,9 +163,7 @@ switch (_TypNumber) do
   case 3:
   {
     _Unit_Pool_S = [
-		"rhsusf_usmc_marpat_wd_combatcrewman",
-		"rhsusf_usmc_marpat_wd_helipilot",
-		"rhsusf_usmc_marpat_wd_teamleader",
+		"rhsusf_usmc_marpat_wd_combatcrewman", "rhsusf_usmc_marpat_wd_helipilot", "rhsusf_usmc_marpat_wd_teamleader",
 		"rhsusf_usmc_marpat_wd_riflemanat",
 		"rhsusf_usmc_marpat_wd_rifleman",
 		"rhsusf_usmc_marpat_wd_marksman",
@@ -186,12 +182,12 @@ switch (_TypNumber) do
 		"rhsusf_m1a1fep_wd",
 		"rhsusf_m1a1fep_od"
 	];
-    _Unit_Pool_A = [
+    _Unit_Pool_A = [	// added A3 ittlebird, it is quite balanced and nice to fight aginst
 		"RHS_AH1Z_wd",
 		"RHS_UH1Y_FFAR",
 		"RHS_UH1Y",
 		"B_Heli_Light_01_armed_F"
-	]; // added A3 ittlebird, it is quite balanced and nice to fight aginst
+	]; 
   };
 //-------------------------------------------------------------------------------------------------
   Default
