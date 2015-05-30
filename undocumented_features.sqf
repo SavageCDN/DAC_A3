@@ -60,7 +60,7 @@ init.sqf (example):
 
 Code:
 DAC_Basic_Value = 0;
-waituntil{DAC_Basic_Value > 0};
+waitUntil {DAC_Basic_Value > 0};
 
 if(isServer) then
 {

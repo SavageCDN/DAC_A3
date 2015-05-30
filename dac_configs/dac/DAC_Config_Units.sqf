@@ -664,7 +664,7 @@ switch (_TypNumber) do
     _Unit_Pool_A = ["CDF_A3_Mi17_rockets","CDF_A3_Mi17"];
   };
 //-------------------------------------------------------------------------------------------------
-Blufor			CDF					@CDF_A3 clean
+// Blufor			CDF					@CDF_A3 clean
   case 19:
    {
     _Unit_Pool_S = ["B_CDF_A3_Soldier_Crew","B_CDF_A3_Soldier_Pilot","B_CDF_A3_Soldier_GL","B_CDF_A3_Soldier_MG","B_CDF_A3_Soldier_AR","B_CDF_A3_Soldier_Medic","B_CDF_A3_Soldier_RPG"];
@@ -673,26 +673,10 @@ Blufor			CDF					@CDF_A3 clean
     _Unit_Pool_A = ["CDF_A3_Mi17_rockets","CDF_A3_Mi17"];
   };
 //-------------------------------------------------------------------------------------------------
-// OPFOR	ChDKZ 			@Leights OPFOR
-  case 20:
-  {
-    _Unit_Pool_S = ["LOP_ChDKZ_Infantry_Crewman","LOP_ChDKZ_Infantry_Pilot","LOP_ChDKZ_Infantry_TL","LOP_ChDKZ_Infantry_MG","LOP_ChDKZ_Infantry_SL","LOP_ChDKZ_Infantry_Rifleman","LOP_ChDKZ_Infantry_Marksman","LOP_ChDKZ_Infantry_GL","LOP_ChDKZ_Infantry_Engineer","LOP_ChDKZ_Infantry_Corpsman"];
-    _Unit_Pool_V = ["rhs_btr70_chdkz","rhs_uaz_open_chdkz","rhs_ural_open_chdkz"];
-    _Unit_Pool_T = ["rhs_bmd2_chdkz","LOP_ChDKZ_T72BA"];
-    _Unit_Pool_A = ["LOP_ChDKZ_Mi8MTV3_FAB","LOP_ChDKZ_Mi8MTV3_UPK23"];
-  };  // I have used vehicles done by RHS, but they are INDEPENDENT and units are OPFOR
-//-------------------------------------------------------------------------------------------------
-// Opfor	Talibian		@Leights OPFOR
-  case 21:
-    {
-    _Unit_Pool_S = ["LOP_AM_Infantry_Engineer","LOP_AM_Infantry_Engineer","LOP_AM_Infantry_TL","LOP_AM_Infantry_SL","LOP_AM_Soldier","LOP_AM_Infantry_Marksman","LOP_AM_Infantry_Engineer","LOP_AM_Infantry_GL","LOP_AM_Infantry_Corpsman","LOP_AM_Infantry_AR","LOP_AM_Infantry_AT"];
-    _Unit_Pool_V = ["LOP_AM_Landrover","LOP_AM_Landrover_M2","LOP_AM_BTR60"];
-    _Unit_Pool_T = ["LOP_AM_T72BA"];
-    _Unit_Pool_A = [];
-  };
+// moved LOP units to it's own .sqf file
 //-------------------------------------------------------------------------------------------------
 // INDEPENDENT	Russians digital flora camo			@sud_russians
-  case 22:
+  case 20:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew","SUD_RU_Soldier_HPilot","SUD_RU_Soldier_TL",
@@ -707,7 +691,7 @@ Blufor			CDF					@CDF_A3 clean
   };
 //-------------------------------------------------------------------------------------------------  
 // INDEPENDENT	Russians SURPAT Camo					@sud_russians
-  case 23:
+  case 21:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew_S","SUD_RU_Soldier_HPilot","SUD_RU_Soldier_TL_S",
@@ -722,7 +706,7 @@ Blufor			CDF					@CDF_A3 clean
   };
 //-------------------------------------------------------------------------------------------------  
 // INDEPENDENT	Russians Specnaz						@sud_russians
-  case 24:
+  case 22:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew","SUD_RU_Soldier_HPilot","SUD_RU_Soldier_Specnaz_TL",
@@ -738,7 +722,7 @@ Blufor			CDF					@CDF_A3 clean
   };
 //------------------------------------------------------------------------------------------------- 
 // INDEPENDENT	Russians Specnaz SD					@sud_russians
-  case 25:
+  case 23:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew","SUD_RU_Soldier_HPilot","SUD_RU_Soldier_Specnaz_TL_SD",
@@ -752,7 +736,7 @@ Blufor			CDF					@CDF_A3 clean
   };
 //------------------------------------------------------------------------------------------------- 
 // INDEPENDENT	PG Services (PMC)						@POMI_PMC
-  case 26:
+  case 24:
   {
     _Unit_Pool_S = [
 		"PMC_Engineer","PMC_Helipilot","PMC_TL",
