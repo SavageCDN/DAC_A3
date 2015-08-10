@@ -25,3 +25,5 @@ Included Mod Units:<br>
 	- moved to it's own file due to # of configs<br>
 @LOP - Leights OPFOR pack<br>
 	- moved to it's own file due to # of configs<br>
+
+August 10th 2015 - merged fix for LOP units issue (thanks Przemro)
