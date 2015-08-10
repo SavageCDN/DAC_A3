@@ -20,15 +20,16 @@ switch (_TypNumber) do
 case 0:
 {
 _Unit_Pool_S = [
+	"LOP_AM_Infantry_Engineer",
+	"LOP_AM_Infantry_Engineer", // double engineer since there is no helis
+	"LOP_AM_Infantry_TL",
 	"LOP_AM_Infantry_AT", 
 	"LOP_AM_Infantry_AR", 
 	"LOP_AM_Infantry_Corpsman", 
 	"LOP_AM_Infantry_GL", 
-	"LOP_AM_Infantry_Engineer", 
 	"LOP_AM_Infantry_Marksman", 
 	"LOP_AM_Soldier", 
-	"LOP_AM_Infantry_SL", 
-	"LOP_AM_Infantry_TL"
+	"LOP_AM_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_AM_Landrover", 
@@ -49,16 +50,17 @@ _Unit_Pool_A = [];
 case 1:
 {
 _Unit_Pool_S = [
+	"LOP_AFR_Driver", 
+	"LOP_AFR_Driver",	// same, no heli
+	"LOP_AFR_Infantry_TL",
 	"LOP_AFR_Infantry_AT", 
 	"LOP_AFR_Infantry_Corpsman", 
-	"LOP_AFR_Driver", 
 	"LOP_AFR_Infantry_GL", 
 	"LOP_AFR_Infantry_IED", 
 	"LOP_AFR_Infantry_AR", 
 	"LOP_AFR_Infantry_Marksman", 
 	"LOP_AFR_Infantry", 
-	"LOP_AFR_Infantry_SL", 
-	"LOP_AFR_Infantry_TL"
+	"LOP_AFR_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_AFR_Landrover", 
@@ -79,15 +81,16 @@ _Unit_Pool_A = [];
 case 2:
 {
 _Unit_Pool_S = [
+	"LOP_ISTS_Infantry_Engineer", 
+	"LOP_ISTS_Infantry_Engineer", // no heli
+	"LOP_ISTS_Infantry_TL",
 	"LOP_ISTS_Infantry_AT", 
 	"LOP_ISTS_Infantry_AR", 
 	"LOP_ISTS_Infantry_Corpsman", 
 	"LOP_ISTS_Infantry_GL", 
-	"LOP_ISTS_Infantry_Engineer", 
 	"LOP_ISTS_Infantry_Marksman", 
 	"LOP_ISTS_Soldier", 
-	"LOP_ISTS_Infantry_SL", 
-	"LOP_ISTS_Infantry_TL"
+	"LOP_ISTS_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_ISTS_Landrover", 
@@ -108,19 +111,19 @@ _Unit_Pool_A = [];
 case 3:
 {
 _Unit_Pool_S = [
+	"LOP_RACS_Infantry_Crewman", 
+	"LOP_RACS_Infantry_Pilot", 
+	"LOP_RACS_Infantry_TL",
 	"LOP_RACS_Infantry_AT", 
 	"LOP_RACS_Infantry_AT_Asst", 
 	"LOP_RACS_Infantry_Corpsman", 
-	"LOP_RACS_Infantry_Crewman", 
-	"LOP_RACS_Infantry_Pilot", 
 	"LOP_RACS_Infantry_Engineer", 
 	"LOP_RACS_Infantry_GL", 
 	"LOP_RACS_Infantry_MG", 
 	"LOP_RACS_Infantry_MG_Asst", 
 	"LOP_RACS_Infantry_Marksman", 
 	"LOP_RACS_Infantry_Rifleman", 
-	"LOP_RACS_Infantry_SL", 
-	"LOP_RACS_Infantry_TL"
+	"LOP_RACS_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_RACS_Landrover", 
@@ -144,18 +147,19 @@ _Unit_Pool_A = [
 case 4:
 {
 _Unit_Pool_S = [
+	"LOP_IA_Infantry_Crewman", 
+	"LOP_IA_Infantry_Crewman", 	//no heli
+	"LOP_IA_Infantry_TL",
 	"LOP_IA_Infantry_AT", 
 	"LOP_IA_Infantry_AT_Asst", 
 	"LOP_IA_Infantry_Corpsman", 
-	"LOP_IA_Infantry_Crewman", 
 	"LOP_IA_Infantry_Engineer", 
 	"LOP_IA_Infantry_GL", 
 	"LOP_IA_Infantry_MG", 
 	"LOP_IA_Infantry_MG_Asst", 
 	"LOP_IA_Infantry_Marksman", 
 	"LOP_IA_Infantry_Rifleman", 
-	"LOP_IA_Infantry_SL", 
-	"LOP_IA_Infantry_TL"
+	"LOP_IA_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_IA_BM21", 
@@ -185,21 +189,21 @@ _Unit_Pool_A = [];
 case 5:
 {
 _Unit_Pool_S = [
+	"LOP_CDF_Infantry_Crewman", 
+	"LOP_CDF_Infantry_Pilot", 
+	"LOP_CDF_Infantry_TL",
 	"LOP_CDF_Infantry_AA", 
 	"LOP_CDF_Infantry_AA", 
 	"LOP_CDF_Infantry_AT_Asst", 
 	"LOP_CDF_Infantry_Corpsman", 
-	"LOP_CDF_Infantry_Crewman", 
 	"LOP_CDF_Infantry_Engineer", 
 	"LOP_CDF_Infantry_GL", 
 	"LOP_CDF_Infantry_MG", 
 	"LOP_CDF_Infantry_MG_Asst", 
 	"LOP_CDF_Infantry_Marksman", 
 	"LOP_CDF_Infantry_Officer", 
-	"LOP_CDF_Infantry_Pilot", 
 	"LOP_CDF_Infantry_Rifleman",
-	"LOP_CDF_Infantry_SL", 
-	"LOP_CDF_Infantry_TL"
+	"LOP_CDF_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_CDF_BM21", 
@@ -237,18 +241,19 @@ _Unit_Pool_A = [
 case 6:
 {
 _Unit_Pool_S = [
+	"LOP_AA_Infantry_Crewman", 
+	"LOP_AA_Infantry_Crewman",	//no heli
+	"LOP_AA_Infantry_TL",
 	"LOP_AA_Infantry_AT", 
 	"LOP_AA_Infantry_AT_Asst", 
 	"LOP_AA_Infantry_Corpsman", 
-	"LOP_AA_Infantry_Crewman", 
 	"LOP_AA_Infantry_Engineer", 
 	"LOP_AA_Infantry_GL", 
 	"LOP_AA_Infantry_MG", 
 	"LOP_AA_Infantry_MG_Asst", 
 	"LOP_AA_Infantry_Marksman", 
 	"LOP_AA_Infantry_Rifleman", 
-	"LOP_AA_Infantry_SL", 
-	"LOP_AA_Infantry_TL"
+	"LOP_AA_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_AA_M1025_W_M2", 
@@ -272,11 +277,13 @@ _Unit_Pool_A = [];
 case 7:
 {
 _Unit_Pool_S = [
+	"LOP_AA_Police_Rifleman",
+	"LOP_AA_Police_Rifleman",	//no heli
+	"LOP_AA_Police_TL",
 	"LOP_AA_Police_Corpsman",
 	"LOP_AA_Police_MG",
 	"LOP_AA_Police_Rifleman",
-	"LOP_AA_Police_SL",
-	"LOP_AA_Police_TL"
+	"LOP_AA_Police_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_AA_Offroad_Police", 
@@ -293,19 +300,19 @@ _Unit_Pool_A = [];
 case 8:
 {
 _Unit_Pool_S = [
+	"LOP_ChDKZ_Infantry_Crewman", 
+	"LOP_ChDKZ_Infantry_Pilot", 
+	"LOP_ChDKZ_Infantry_TL",
 	"LOP_ChDKZ_Infantry_AT", 
 	"LOP_ChDKZ_Infantry_Bardak", 
 	"LOP_ChDKZ_Infantry_Commander", 
 	"LOP_ChDKZ_Infantry_Corpsman", 
-	"LOP_ChDKZ_Infantry_Crewman", 
 	"LOP_ChDKZ_Infantry_Engineer", 
 	"LOP_ChDKZ_Infantry_GL", 
 	"LOP_ChDKZ_Infantry_MG", 
 	"LOP_ChDKZ_Infantry_Marksman", 
-	"LOP_ChDKZ_Infantry_Pilot", 
 	"LOP_ChDKZ_Infantry_Rifleman", 
-	"LOP_ChDKZ_Infantry_SL", 
-	"LOP_ChDKZ_Infantry_TL"
+	"LOP_ChDKZ_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_ChDKZ_BM21", 
@@ -336,21 +343,21 @@ _Unit_Pool_A = [
 case 9:
 {
 _Unit_Pool_S = [
+	"LOP_SLA_Infantry_Crewman", 
+	"LOP_SLA_Infantry_Pilot", 
+	"LOP_SLA_Infantry_TL",
 	"LOP_SLA_Infantry_AA",
 	"LOP_SLA_Infantry_AT",
 	"LOP_SLA_Infantry_AT_Asst",
 	"LOP_SLA_Infantry_Corpsman",
-	"LOP_SLA_Infantry_Crewman", 
 	"LOP_SLA_Infantry_Engineer", 
 	"LOP_SLA_Infantry_GL", 
 	"LOP_SLA_Infantry_MG", 
 	"LOP_SLA_Infantry_MG_Asst", 
 	"LOP_SLA_Infantry_Marksman", 
 	"LOP_SLA_Infantry_Officer", 
-	"LOP_SLA_Infantry_Pilot", 
 	"LOP_SLA_Infantry_Rifleman", 
-	"LOP_SLA_Infantry_SL", 
-	"LOP_SLA_Infantry_TL"
+	"LOP_SLA_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_SLA_BM21", 
@@ -381,11 +388,13 @@ _Unit_Pool_A = [
 case 10:
 {
 _Unit_Pool_S = [
+	"LOP_US_Infantry_Crewman", 
+	"LOP_US_Infantry_Crewman",	//no heli
+	"LOP_US_Infantry_TL",
 	"LOP_US_Infantry_AA",
 	"LOP_US_Infantry_AT",
 	"LOP_US_Infantry_AT_Asst",
 	"LOP_US_Infantry_Corpsman",
-	"LOP_US_Infantry_Crewman", 
 	"LOP_US_Infantry_Engineer", 
 	"LOP_US_Infantry_GL", 
 	"LOP_US_Infantry_MG", 
@@ -393,8 +402,7 @@ _Unit_Pool_S = [
 	"LOP_US_Infantry_Marksman", 
 	"LOP_US_Infantry_Officer", 
 	"LOP_US_Infantry_Rifleman", 
-	"LOP_US_Infantry_SL", 
-	"LOP_US_Infantry_TL"
+	"LOP_US_Infantry_SL"
 ];
 _Unit_Pool_V = [
 	"LOP_US_BM21", 
