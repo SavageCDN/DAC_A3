@@ -384,40 +384,9 @@ switch (_TypNumber) do
 		"B_Heli_Light_01_F"
 	];
   };
- //-------------------------------------------------------------------------------------------------
- // INDEPENDENT		 AAF (Recon)				IND_F
-  case 6:
-  {
-    _Unit_Pool_S = [
-		//Vehicle crewman, Pilot, Group Leader
-		"I_crew_F","I_Helipilot_F","I_recon_TL_F",
-		//Recon Scout
-		"I_recon_F",
-		//Recon Scout AT
-		"I_recon_LAT_F",
-		//Recon JTAC
-		"I_recon_JTAC_F",
-		//Rifleman AT
-		"I_Soldier_LAT_F",
-		//Explosives Specialist
-		"I_recon_exp_F",
-		//Recon Medic
-		"I_recon_medic_F",
-		//Recon Marksman
-		"I_recon_M_F"
-	];
-    _Unit_Pool_V = [
-		//Quadbike
-		"I_Quadbike_F",
-		//Strider
-		"I_MRAP_03_F"
-	];
-    _Unit_Pool_T = [];
-    _Unit_Pool_A = [];
-  };
 //-------------------------------------------------------------------------------------------------
 // OPFOR			Rebels Red				OPF_G_F
-  case 7:
+  case 6:
   {
     _Unit_Pool_S = [
 		"O_G_Soldier_F","O_G_Soldier_F","O_G_Soldier_SL_F",
@@ -439,7 +408,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // BLUFOR		Rebels Blue				BLU_G_F
-  case 8:
+  case 7:
   {
     _Unit_Pool_S = [
 		"B_G_Soldier_F","B_G_Soldier_F","B_G_Soldier_SL_F",
@@ -463,7 +432,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // INDFOR		Rebels Green				IND_G_F
-  case 9:
+  case 8:
   {
     _Unit_Pool_S = [
 		"I_G_Soldier_F","I_G_Soldier_F","I_G_Soldier_SL_F",
@@ -485,7 +454,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // OPFOR		CAF Aggressors Africans			caf_ag_afr_p
-  case 10:
+  case 9:
   {
     _Unit_Pool_S = [
 		"CAF_AG_AFR_P_AK47","CAF_AG_AFR_P_AK47","CAF_AG_AFR_P_SVD",
@@ -506,7 +475,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // OPFOR		CAF Aggressors Middle Eastern	caf_ag_me_t
-  case 11:
+  case 10:
   {
     _Unit_Pool_S = [
 		"CAF_AG_ME_T_AK47","CAF_AG_ME_T_AK47","CAF_AG_ME_T_SVD",
@@ -527,7 +496,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // OPFOR		CAF Aggressors Europeans		caf_ag_eeur_r
-  case 12:
+  case 11:
   {
     _Unit_Pool_S = [
 		"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_SVD",
@@ -549,7 +518,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // BLUFOR		CAF (WOODLAND)					CAF_TW		
-  case 13:
+  case 12:
   {
     _Unit_Pool_S = [
 		"CAF_CREWMAN_TW","RCAF_CH147_PILOT_OD","CAF_SECTIONIC_TW",
@@ -593,7 +562,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // BLUFOR		CAF (ARID)						CAF_AR		
-  case 14:
+  case 13:
   {
     _Unit_Pool_S = [
 		"CAF_CREWMAN_AR","RCAF_CH147_PILOT_AR","CAF_SECTIONIC_AR",
@@ -633,7 +602,7 @@ switch (_TypNumber) do
   };
  //-------------------------------------------------------------------------------------------------
 // BLUFOR		CAF JTF2						????		
-  case 15:
+  case 14:
   {
     _Unit_Pool_S = [
 		"JTF2_ASSAULTER","RCAF_CH146_PILOT_OD","JTF2_ASSAULTER_TL",	
@@ -650,7 +619,7 @@ switch (_TypNumber) do
  
 //-------------------------------------------------------------------------------------------------
 // OPFOR 	CSAT	 (Light Urban Assault Force)			OPF_F
-  case 16:
+  case 15:
   {
    	_Unit_Pool_S = [
 		"O_crew_F", "O_Helipilot_F", "O_soldierU_SL_F", 
@@ -681,7 +650,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // OPFOR 	Takistani Army regulars 					@TKA_A3
-  case 17:
+  case 16:
    {
     _Unit_Pool_S = [
 		"B_TKA_A3_Soldier_Crew", "B_TKA_A3_Soldier_Pilot", "B_TKA_A3_Soldier_SL",
@@ -711,7 +680,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // Blufor		CDF					@CDF_A3 mixed with LOP CDF units
-  case 18:
+  case 17:
    {
     _Unit_Pool_S = [
 		"B_CDF_A3_Soldier_Crew", "B_CDF_A3_Soldier_Pilot", "B_CDF_A3_Soldier_GL",
@@ -741,7 +710,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------
 // Blufor			CDF					@CDF_A3 clean
-  case 19:
+  case 18:
    {
     _Unit_Pool_S = [
 		"B_CDF_A3_Soldier_Crew", "B_CDF_A3_Soldier_Pilot", "B_CDF_A3_Soldier_GL",
@@ -768,7 +737,7 @@ switch (_TypNumber) do
 // moved LOP units to it's own .sqf file
 //-------------------------------------------------------------------------------------------------
 // INDEPENDENT	Russians digital flora camo			@sud_russians
-  case 20:
+  case 19:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew", "SUD_RU_Soldier_HPilot", "SUD_RU_Soldier_TL",
@@ -801,7 +770,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------  
 // INDEPENDENT	Russians SURPAT Camo					@sud_russians
-  case 21:
+  case 20:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew_S", "SUD_RU_Soldier_HPilot", "SUD_RU_Soldier_TL_S",
@@ -833,7 +802,7 @@ switch (_TypNumber) do
   };
 //-------------------------------------------------------------------------------------------------  
 // INDEPENDENT	Russians Specnaz						@sud_russians
-  case 22:
+  case 21:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew", "SUD_RU_Soldier_HPilot", "SUD_RU_Soldier_Specnaz_TL",
@@ -868,7 +837,7 @@ switch (_TypNumber) do
   };
 //------------------------------------------------------------------------------------------------- 
 // INDEPENDENT	Russians Specnaz SD					@sud_russians
-  case 23:
+  case 22:
   {
     _Unit_Pool_S = [
 		"SUD_RU_Soldier_Crew", "SUD_RU_Soldier_HPilot", "SUD_RU_Soldier_Specnaz_TL_SD",
@@ -896,7 +865,7 @@ switch (_TypNumber) do
   };
 //------------------------------------------------------------------------------------------------- 
 // INDEPENDENT	PG Services (PMC)						@POMI_PMC
-  case 24:
+  case 23:
   {
     _Unit_Pool_S = [
 		"PMC_Engineer", "PMC_Helipilot", "PMC_TL",
