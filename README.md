@@ -2,8 +2,10 @@ DAC_A3
 ======
 
 
-Expanded Config Files for:
+Expanded Config Files for:<br>
 Dynamic AI Creator 3.1 by Silola
+
+Note this is for the Arma 3 version of DAC!!
 
 Modified files:<br>
 
@@ -25,5 +27,7 @@ Included Mod Units:<br>
 	- moved to it's own file due to # of configs<br>
 @LOP - Leights OPFOR pack<br>
 	- moved to it's own file due to # of configs<br>
+@BWMod - German Army Mod added as separate .sqf file<br>
 
-August 10th 2015 - merged fix for LOP units issue (thanks Przemro)
+August 10th 2015 - merged fix for LOP units issue (thanks Przemro)<br>
+November 4th 2015 - merged units for BWMod (thanks TheMagnetar)
