@@ -6,6 +6,18 @@ This is a mess of various forum posts, chat posts, etc where Silola has expanded
 Please note this information is not guaranteed to be accurate nor can I ensure these things work in both the Arma 2 and Arma 3 versions of DAC
 */
 
+// HOW WAYPOINTS WORK WITHIN A ZONE
+each group gets only one pool of waypoints at the beginning (after a group is generated),
+and they don't move the waypoints in a row, but totaly randomized, so they can't reach any end.
+ 
+For example, a group gets 5  of 20 waypoits: (wp2, wp7, wp11, wp13, wp17)
+This group is then spawned at one of these waypoints (also random selected, if more then one waypoint generated).
+ 
+The group is not moving along the waypoint path like: start > wp2 > wp7 > wp11 > wp13 > wp17 > end
+but totaly randomized like this: start > wp7 > wp13 > wp7 > wp2 > wp17 > wp2 > wp13 > wp7 > wp2 >>>>> no end
+ 
+Hint: A respawned group gets exactly the same waypoint pool as the killed one.
+ 
 
 // SAVING GENERATED GROUPS TO AN ARRAY
 To save each group within an zone (of a certain units category) into a global array you have to specify an additional array name as a string.
