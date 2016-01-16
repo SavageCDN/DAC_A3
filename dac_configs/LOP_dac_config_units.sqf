@@ -28,7 +28,8 @@ _Unit_Pool_S = [
 	"LOP_AM_Infantry_Corpsman", 
 	"LOP_AM_Infantry_GL", 
 	"LOP_AM_Infantry_Marksman", 
-	"LOP_AM_Soldier", 
+	"LOP_AM_Infantry_Rifleman",
+	"LOP_AM_Infantry_Rifleman_2",
 	"LOP_AM_Infantry_SL"
 ];
 _Unit_Pool_V = [
